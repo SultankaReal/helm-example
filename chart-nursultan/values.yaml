@@ -1,0 +1,9 @@
+# Default Values for my Helm Chart
+
+container:
+  image: nginx:1.14
+
+replicaCount: 4
+
+
+resourceQuotaName: object-counts
